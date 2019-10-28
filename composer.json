@@ -1,0 +1,27 @@
+{
+    "name": "s.bahador/typhoon-secure-file",
+    "description": "Secure your file's access and download",
+    "type": "package",
+    "require": {
+        "php": ">=7.0.0",
+        "salibhdr/typhoon-url-signer": "^1.2",
+        "symfony/http-foundation" : "^4.3",
+        "illuminate/support": "~5"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Salar Bahador",
+            "email": "bahador.salar@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "SaliBhdr\\TyphoonSecureFile\\": "src/"
+        }
+    },
+    "config": {
+        "preferred-install": "dist"
+    },
+    "minimum-stability": "dev"
+}
